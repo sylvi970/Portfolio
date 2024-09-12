@@ -45,7 +45,7 @@
     }
   ],
   "hireMe": {
-    "whatsapp": "923460159889"
+    "whatsapp": "6372711544"
   },
   "projects": [
     {
@@ -60,24 +60,14 @@
       "bannerUrl": "assets/projects/medkitB.png",
       "description": "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels."
     },
-    {
-      "title": "The Holy Qur'an",
-      "iconUrl": "https://drive.google.com/file/d/1jpkSQyGZP5EWPCIfRz-dU9TARXHN2P5o/view?usp=sharing",
-      "bannerUrl": "assets/projects/quranB.png",
-      "description": "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md"
-    },
+
     {
       "title": "Here I Am",
       "iconUrl": "assets/projects/hereiam.png",
       "bannerUrl": "assets/projects/hereiamB.png",
       "description": "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones."
     },
-    {
-      "title": "COIVD 19 - Tracker",
-      "iconUrl": "assets/projects/covid.png",
-      "bannerUrl": "assets/projects/covidB.png",
-      "description": "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live."
-    },
+
     {
       "title": "Messenger Chat Head UI",
       "iconUrl": "assets/projects/messenger.png",
@@ -107,12 +97,6 @@
       "iconUrl": "assets/projects/android.png",
       "bannerUrl": "",
       "description": "A concept app for self-services at various restaurants now a days. More like a Restaurant Ordering System."
-    },
-    {
-      "title": "Hidev",
-      "iconUrl": "assets/services/open.png",
-      "bannerUrl": "",
-      "description": "Its my end semester project. The whole design I developed here is an inspiration from my favortie Flutter Developer Marcin Szałek and his blog Fidev."
     }
   ],
   "contact": [

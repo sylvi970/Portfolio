@@ -20,8 +20,11 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       padding: Space.h!,
       child: Column(
         children: [
+          SizedBox(
+            height: 40,
+          ),
           const CustomSectionHeading(
-            text: "\nPortfolio",
+            text: "\Projects",
           ),
           const CustomSectionSubHeading(
             text: "Here are few samples of my previous work :)\n\n",
@@ -30,14 +33,12 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
             alignment: WrapAlignment.center,
             crossAxisAlignment: WrapCrossAlignment.center,
             runSpacing: AppDimensions.normalize(10),
-            children: ProjectUtils.banners
+            children: ProjectUtils.icons
                 .asMap()
                 .entries
                 .map(
                   (e) => ProjectCard(
-                    banner: e.value,
                     projectIcon: ProjectUtils.icons[e.key],
-                    // projectLink: ProjectUtils.links[e.key],
                     projectTitle: ProjectUtils.titles[e.key],
                     projectDescription: ProjectUtils.description[e.key],
                   ),

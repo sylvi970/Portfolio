@@ -93,26 +93,16 @@ class AboutDesktop extends StatelessWidget {
                         thickness: AppDimensions.normalize(0.5),
                       ),
                       Space.y1!,
-                      Row(
-                        children: [
-                          SizedBox(
-                            height: AppDimensions.normalize(13),
-                            width: AppDimensions.normalize(40),
-                            child: OutlinedButton(
-                              onPressed: () =>
-                                  html.window.open(StaticUtils.resume, 'pdf'),
-                              child: const Text(
-                                "Resume",
-                              ),
-                            ),
+                      SizedBox(
+                        height: AppDimensions.normalize(13),
+                        width: AppDimensions.normalize(40),
+                        child: OutlinedButton(
+                          onPressed: () =>
+                              html.window.open(StaticUtils.resume, 'pdf'),
+                          child: const Text(
+                            "Resume",
                           ),
-                          Space.x1!,
-                          Container(
-                            color: Colors.grey[900]!,
-                            width: AppDimensions.normalize(30),
-                            height: AppDimensions.normalize(0.5),
-                          ),
-                        ],
+                        ),
                       ),
                     ],
                   ),

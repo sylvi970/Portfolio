@@ -1,20 +1,10 @@
 class ProjectUtils {
-  static const List<String> banners = [
-    "assets/projects/snackbar.png",
-    "assets/projects/quranB.png",
-    "assets/projects/medkitB.png",
-    "assets/projects/hereiamB.png",
-    "assets/projects/covidB.png",
-  ];
-
   static const List<String> icons = [
     "assets/projects/flutter.png",
     "assets/projects/messenger.png",
-    "assets/projects/flutter.png",
     "assets/projects/earbender.png",
     "assets/projects/java.png",
     "assets/projects/android.png",
-    "assets/services/open_b.png",
   ];
 
   static const List<String> titles = [
@@ -32,18 +22,4 @@ class ProjectUtils {
     "News-App is a Flutter-based application that delivers breaking news and top stories from around the world. Stay informed and up-to-date with the latest events, trends, and opinions.",
     "Jatpat Dekho is a popular e-commerce platform that offers a wide range of products for your shopping needs. From electronics and fashion to home goods and groceries, you'll find everything you need in one place.",
   ];
-
-  // static const List<String> links = [
-  //   "https://pub.dev/packages/awesome_snackbar_content",
-  //   "https://github.com/mhmzdev/The_Holy_Quran_App",
-  //   "https://github.com/mhmzdev/MedKit-Pharmacy-App-Using-Flutter",
-  //   "https://github.com/mhmzdev/Here-I-Am-Alert-App",
-  //   "https://github.com/mhmzdev/Covid19-Tracker-App",
-  //   "https://github.com/mhmzdev/Messenger-Chat-Head-Flutter-UI",
-  //   "https://github.com/mhmzdev/flutter.dev-Flutter-Web-Clone",
-  //   "https://github.com/mhmzdev/Earbender_Music_App",
-  //   "https://github.com/mhmzdev/FTP_GUI_Java",
-  //   "https://github.com/mhmzdev/My-Order-Resturant-Ordering-System",
-  //   "https://github.com/mhmzdev/Hidev_Web",
-  // ];
 }
