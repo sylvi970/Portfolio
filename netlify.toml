@@ -1,0 +1,9 @@
+[build]
+  # Directory to deploy; Flutter builds the web app in "build/web"
+  publish = "build/web"
+
+[[redirects]]
+  # Redirect all routes to index.html for a single-page application
+  from = "/*"
+  to = "/index.html"
+  status = 200
