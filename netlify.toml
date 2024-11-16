@@ -4,6 +4,6 @@
 
 [[redirects]]
   # Redirect all routes to index.html for a single-page application
-  from = "/*"
+  from = "/web/*"
   to = "/index.html"
   status = 200
