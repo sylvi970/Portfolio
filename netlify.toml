@@ -1,5 +1,5 @@
 [build]
-  # Directory to deploy; Flutter builds the web app in "build/web"
+  command = "flutter build web"
   publish = "build/web"
 
 [[redirects]]
